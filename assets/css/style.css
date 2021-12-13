@@ -8,7 +8,12 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
 }
-/* Apply styles to header */
+
+section {
+    padding: 60px;
+}
+
+/* HEADER / FOOTER */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -58,4 +63,55 @@ header a {
  }
  footer a {
      color:#024e76;
+ }
+
+ /* HERO/JUMBOTRON */
+
+.hero {
+    background-image: url("../images/hero-bg.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    border:solid 3px #024e76;
+    color:#024e76;
+    background-color:#fce138;
+    padding:20px;
+    width: 500px;
+    position: absolute;
+    bottom:120px;
+    right: 140px;
+}
+
+.hero h3 {
+    margin: 0px;
+    font-size: 24px;
+}
+ 
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border:1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color:#024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+ .hero-form label {
+     margin:0 5px;
+ }
+
+button {
+color:#fce138;
+background-color:#024e76;
+padding: 10px 20px;
+border: none;
+font-size: 16px;
  }
