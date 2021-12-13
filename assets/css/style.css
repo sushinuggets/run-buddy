@@ -115,3 +115,31 @@ padding: 10px 20px;
 border: none;
 font-size: 16px;
  }
+ /* End of HERO/JUMBOTRON */
+
+ /* Start WHAT WE DO */
+ /* End WHAT WE DO*/
+
+
+
+  /* Start WHAT YOU DO */
+.what-you-do {
+    background-color:#fce138;
+    
+     
+    
+}
+
+.what-you-do h3 {
+    color:#024e76
+
+}
+
+.what-you-do p {
+    color:#39a6b2
+}
+
+.what-you-do img {
+    
+}
+ /* End WHAT YOU DO*/
